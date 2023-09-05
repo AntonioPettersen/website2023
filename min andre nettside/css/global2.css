@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:ital,wght@1,100&display=swap');
+
+    html,{
+        width: 100%;
+
+        
+        background-color:rgb(255, 247, 0);
+        background-repeat: repeat;
+        background-size: 100%;
+        font-family: 'Thin Italic 100', sans-serif     
+ 
+}
+    
+
+body{
+min-height: 100vh;  
+background:   
+}
+
+
+img{
+width: 100%;
+top: 0;
+}
+        
+
+
+header{
+position:fixed;
+top:0;
+left:0;
+width: 90%;
+padding: 20px 100px;
+background:rgb(53, 52, 52);
+display: flex;
+justify-content: space-between;
+align-items: center;
+z-index: 100;
+}
+    
+.logo{
+font-size: 32px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: 700;
+}
+
+.navbar a{
+position: relative;
+font-size: 18px;
+color: rgb(255, 255, 255);
+font-weight: 500;
+text-decoration: none;
+margin-left: 40px;
+}
+
+.navbar a::before{
+content: '';
+position: absolute;
+top: 100%;
+left: 0;
+width: 0;
+height: 2px;
+background: #fa1111;
+transition: .3s;
+}
+
+.navbar a:hover::before{
+width: 100%;
+
+
+}
+
+
+    
+h2{
+    color: rgb(0, 0, 0);
+    font-size:3rem;
+}
+    
+    section{
+        width:100%;
+        margin:0 auto;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    article{
+    flex-basis: 30%;
+    flex-grow: 1;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 2px solid rgb(63, 63, 63);
+    box-shadow: 2px
+    }
+
+    a{
+    font-size: 1.5rem;
+    color: rgb(17, 0, 255);
+    text-decoration-color: blue;
+    }
+
+    a:hover{
+    color:rgb(250, 38, 38)
+    }
